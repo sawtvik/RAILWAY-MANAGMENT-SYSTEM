@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+/* html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+} */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-heading {
+  font-size: 3rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3rem;
+  border-bottom: 0.3rem solid #333;
+  text-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
+
+.section-3 {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 0;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+}

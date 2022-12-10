@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login form with JavaScript Validation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./sstyle.css" />
+  </head>
+  <body
+    style="
+      background-image: url(rp4.jpeg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <div class="logo text-center">
+      <section class="section-3" id="section-3">
+        <h1>Register_User</h1>
+      </section>
+    </div>
+    <div class="wrapper">
+      <div class="inner-warpper text-center">
+        <form action="new_user_form.php" method="post">
+          <div align="center">
+            <input
+              type="text"
+              name="emailid"
+              required
+              placeholder="email-id"
+            /><br /><br />
+            <input
+              type="text"
+              name="mobileno"
+              required
+              placeholder="mobileno"
+            /><br /><br />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+            /><br /><br />
+            <input
+              type="date"
+              name="dob"
+              required
+              placeholder="DOB"
+            /><br /><br />
+
+            <input type="submit" value="SAVE" /><br /><br />
+
+            <a href="index.htm">Home Page</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+    <script src="./sccript.js"></script>
+  </body>
+</html>
